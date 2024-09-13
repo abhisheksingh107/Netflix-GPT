@@ -4,7 +4,11 @@ module.exports = {
     "./src/**/*.{js,jsx,ts,tsx}",
   ],
   theme: {
-    extend: {},
+    extend: {
+      colors: {
+        'custom-dark-overlay': 'rgba(0, 0, 0, 0.7)', // Custom overlay color
+      },
+    },
   },
   plugins: [],
 }
