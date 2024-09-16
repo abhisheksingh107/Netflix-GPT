@@ -5,6 +5,9 @@ module.exports = {
   ],
   theme: {
     extend: {
+      fontFamily: {
+        sans: ['Bebas Neue', 'sans-serif'],
+      },
       colors: {
         'custom-dark-overlay': 'rgba(0, 0, 0, 0.7)', // Custom overlay color
       },
