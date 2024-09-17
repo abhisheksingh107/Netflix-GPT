@@ -11,12 +11,12 @@ const VideoTrailer = ({ movieId }) => {
 
   return (
     <div>
+        <div className="w-full h-20 absolute bg-black"></div>
       <iframe
       className="w-screen aspect-video"
         src={
-          "https://www.youtube.com/embed/Icnysn53neU?si=" + trailerYouTube?.key + "&start=4&autoplay=1&mute=1&controls=0&modestbranding=2&rel=0"
+          "https://www.youtube.com/embed/Icnysn53neU?si=" + trailerYouTube?.key + "&start=10&autoplay=1&mute=1&controls=0&modestbranding=4&rel=0"
         }
-        frameborder="0"
       ></iframe>
     </div>
   );    

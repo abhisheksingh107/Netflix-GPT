@@ -43,16 +43,16 @@ function Header() {
   }, [dispatch, navigate]);
 
   return (
-    <div className="flex justify-between absolute w-full bg-gradient-to-b from-black px-7 z-10">
+    <div className="flex justify-between absolute w-full bg-gradient-to-b from-black px-5 z-10">
       <img
-        className="w-36 ml-32 mt-6 font-bold"
+        className="w-36 ml-32 mt-8 font-bold"
         src={Netflix_Logo}
         alt="Netflix Logo"
       />
 
 
       {user && (
-        <div className="flex mt-5 bg-black">
+        <div className="flex mt-8 bg-black">
           <img className="w-8 h-8" src = {User_Icon} alt="User Icons" />
           <button
             onClick={handleSignOut}
