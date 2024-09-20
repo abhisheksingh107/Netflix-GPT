@@ -37,6 +37,12 @@
 - GPT search Page
 - Multilanguage feature in our App
 - Integreted GPT API()
+- Get Open Ai Key()
+- Gpt Search Api Call 
+- Fetch the movie from TMBD on the basis of GPT Search 
+- Memoization
+- Added .env file to keep data secreat 
+- 
 
 # Features
 
