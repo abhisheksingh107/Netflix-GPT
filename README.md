@@ -33,6 +33,10 @@
 - TMDB Image CDN URL
 - Made the Browser page with tailwind CSS
 - usePopularMoive, useTopRated, useupcoming custom hook
+- GPT search Bar
+- GPT search Page
+- Multilanguage feature in our App
+- Integreted GPT API()
 
 # Features
 

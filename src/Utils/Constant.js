@@ -12,7 +12,7 @@ export const API_options = {
   headers: {
     accept: "application/json",
     Authorization:
-      "Bearer eyJhbGciOiJIUzI1NiJ9.eyJhdWQiOiJhN2UzNzQyYzkyMGZjOWNiNGVmNDNiYjM4MjljOTIzNiIsIm5iZiI6MTcyNjQwMzkzNC44OTg3MTYsInN1YiI6IjY2ZTZkMzc4ZGQyMjRkMWEzOTkxNTQ2NiIsInNjb3BlcyI6WyJhcGlfcmVhZCJdLCJ2ZXJzaW9uIjoxfQ.EJYp-2KW27zKHXswD6sfMtckrURecVd4V8aiK6mFugc",
+      "Bearer " + process.env.React_App_TMDB_KEY,
   },
 };
 
@@ -22,3 +22,7 @@ export const SUPPORTED_LANGUAGES = [
 ];
 
 export const TMBD_Image_URL = "https://image.tmdb.org/t/p/w500/";
+
+
+
+export const OPEN_AI = process.env.React_App_OPEN_AI
